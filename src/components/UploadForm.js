@@ -9,12 +9,13 @@ const UploadForm = () => {
   const changeHandler = (e) => {
 
     let selected = e.target.files[0]
-    if (selected && types.includes(selected.types)) {
+    if (selected && types.includes(selected.type)) {
       setFile(selected)
+      setError('')
     } else {
       setFile(null)
-      setError('Please select image file')
-    }
+      setError('Error: Please select image file')
+    } 
     console.log(selected)
   }
   return (
