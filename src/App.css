@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
 .App {
   text-align: center;
 }
@@ -24,4 +23,10 @@ body{
 .title h2{
   margin-top: 60px;
   font-size: 2.6rem;
+}
+
+.progress-bar{
+  height: 5px;
+  background: lightcoral;
+  margin-top: 20px;
 }
